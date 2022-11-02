@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      div {
+        font-family: Arial;
+      }
+
+      .first-sidebar {
+        background-color: rgb(33, 33, 33);
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .avatar {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-bottom: 10px;
+      }
+
+      .second-sidebar {
+        background-color: rgb(66, 66, 66);
+        position: fixed;
+        top: 0;
+        left: 70px;
+        bottom: 0;
+        width: 150px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .name {
+        font-size: 14px;
+        color: white;
+      }
+
+      .create-new {
+        font-size: 25px;
+        color: rgb(130, 130, 130);
+      }
+
+      .channel {
+        color: rgb(130, 130, 130);
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first-sidebar">
+      <div>
+        <img class="avatar" src="images/6aae1f276e95e65de99d6ffea75f010167d5d0c6.jpg">
+      </div>
+      <div>
+        <img class="avatar" src="images/256x256.png">
+      </div>
+      <div>
+        <img class="avatar" src="images/E52aEkTVIAks_J3.png">
+      </div>
+    </div>
+    <div class="second-sidebar">
+      <div class="header">
+        <div class="name">INFO</div>
+        <div class="create-new">+</div>
+      </div>
+      <div class="channel"># new-videos</div>
+      <div class="channel"># updates</div>
+      <div class="channel"># faq</div>
+    </div>
+  </body>
+</html>

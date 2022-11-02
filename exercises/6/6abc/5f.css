@@ -1,0 +1,30 @@
+p  {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.price {
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+
+.USD {
+  color: grey;
+  font-size: 16;
+}
+
+.positive {
+  color: rgb(34, 180, 34);
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.after-hours {
+  color: grey;
+  font-size: 15px;
+}
+
+.negative {
+  color: rgb(233, 5, 5);
+}

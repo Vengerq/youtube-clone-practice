@@ -1,0 +1,17 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.sale-end {
+  color: red;
+  font-size: 14px;
+  font-style: italic;
+}

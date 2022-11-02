@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 15px;
+      }
+
+      .profile {
+        display: inline-block;
+        width: 200px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .profile-picture {
+        width: 200px;
+        object-fit: cover;
+        margin-bottom: 6px;
+      }
+
+      .name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 8px;
+        margin-bottom: 2px;
+      }
+
+      .mutual-row-grid {
+        display: grid;
+        grid-template-columns: 35px 1fr;
+        align-items: center;
+        margin-left: 8px;
+        margin-bottom: 8px;
+      }
+
+      .friend-picture {
+        width: 28px;
+        object-fit: cover;
+        vertical-align: middle;
+        margin-right: 4px;
+      }
+
+      .mutual-friends {
+        color: rgb(100, 100, 100);
+      }
+
+      .add {
+        color: white;
+        background-color: rgb(78, 129, 240);
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        margin-left: 8px;
+        padding: 8px 18px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="profile">
+        <img
+          class="profile-picture"
+          src="images\6aae1f276e95e65de99d6ffea75f010167d5d0c6.jpg"
+        />
+        <p class="name">Oliver</p>
+          <div class="mutual-row-grid">
+            <img class="friend-picture" src="images/Logo_SCP_Foundation.jpg" />
+            <p class="mutual-friends">2 mutual friends</p>
+          </div>
+        <button class="add">Add Friend</button>
+      </div>
+
+      <div class="profile">
+        <img class="profile-picture" src="images\256x256.png" />
+          <p class="name">Mimi</p>
+          <div class="mutual-row-grid">
+            <img class="friend-picture" src="images/Logo_SCP_Foundation.jpg" />
+            <p class="mutual-friends">3 mutual friends</p>
+          </div>
+          <button class="add">Add Friend</button>
+      </div>
+
+      <div class="profile">
+        <img class="profile-picture" src="images\E52aEkTVIAks_J3.png" />
+        <p class="name">Rex</p>
+        <div class="mutual-row-grid">
+          <img class="friend-picture" src="images/Logo_SCP_Foundation.jpg" />
+          <p class="mutual-friends">4 mutual friends</p>
+        </div>
+        <button class="add">Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>
